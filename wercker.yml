@@ -24,9 +24,10 @@ build:
   # Steps make up the actions in your pipeline
   # Read more about steps on our dev center:
   # https://devcenter.wercker.com/development/steps/
+  beagle-trigger:
   steps:
   - install-packeges:
- packages: python
+ packages: python:3.4-slim
   - beaglesecurity/beagle-security:
       ACCESS_TOKEN:    $ACCESS_TOKEN
       APPLICATION_TOKEN: $APPLICATION_TOKEN
