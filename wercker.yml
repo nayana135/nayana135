@@ -26,7 +26,6 @@ build:
   # https://devcenter.wercker.com/development/steps/
   
   steps:
-  curl -H 'Authorization: Bearer <TOKEN>' https://app.wercker.com/api/v3/applications/Nayana/nayana135 
   - beaglesecurity/beagle-security:
       ACCESS_TOKEN:    $ACCESS_TOKEN
       APPLICATION_TOKEN: $APPLICATION_TOKEN
