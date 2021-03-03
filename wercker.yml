@@ -26,8 +26,8 @@ build:
   # https://devcenter.wercker.com/development/steps/
   steps:  
   - beaglesecurity/beagle-security@1.5.0:
-      ACCESS_TOKEN:      <string> 
-      APPLICATION_TOKEN: <string> 
+      ACCESS_TOKEN:    $ACCESS_TOKEN
+      APPLICATION_TOKEN: $APPLICATION_TOKEN
     # A step that sets up the python virtual environment
     - virtualenv:
         name: setup virtual environment
