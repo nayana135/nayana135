@@ -27,7 +27,7 @@ build:
   steps:
   - install-packeges:
  packages: curl
-  - beaglesecurity/beagle-security@1.5.0:
+  - beaglesecurity/beagle-security:
       ACCESS_TOKEN:    $ACCESS_TOKEN
       APPLICATION_TOKEN: $APPLICATION_TOKEN
     # A step that sets up the python virtual environment
