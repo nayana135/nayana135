@@ -26,8 +26,6 @@ build:
   # https://devcenter.wercker.com/development/steps/
   beagle-trigger:
   steps:
-  - install-packeges:
- packages: python:3.4-slim
   - beaglesecurity/beagle-security:
       ACCESS_TOKEN:    $ACCESS_TOKEN
       APPLICATION_TOKEN: $APPLICATION_TOKEN
