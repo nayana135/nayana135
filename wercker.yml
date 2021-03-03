@@ -24,7 +24,7 @@ build:
   # Steps make up the actions in your pipeline
   # Read more about steps on our dev center:
   # https://devcenter.wercker.com/development/steps/
-  beagle-trigger:
+  
   steps:
   - beaglesecurity/beagle-security:
       ACCESS_TOKEN:    $ACCESS_TOKEN
