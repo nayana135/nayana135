@@ -26,7 +26,7 @@ build:
   # https://devcenter.wercker.com/development/steps/
   steps:
   - install-packeges:
- packages: curl
+ packages: python
   - beaglesecurity/beagle-security:
       ACCESS_TOKEN:    $ACCESS_TOKEN
       APPLICATION_TOKEN: $APPLICATION_TOKEN
